@@ -1,0 +1,119 @@
+:root {
+  --color-primary: #996DFF;
+  --color-secondary: #C7AFFF;
+  --color-black: #09090A;
+  --color-white: #FFFFFF;
+  --color-gray: #C4C4CC;
+}
+
+body {
+  background: var(--color-black);
+  color: var(--color-white);
+  background-image: url("../src/assets/BG.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.container {
+  padding: 160px 80px 80px 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 160px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.span-primary {
+  background: linear-gradient(90deg, var(--color-primary) 0%, #C7AFFF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1.6;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.title-content {
+  color: var(--color-white);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 32px;
+}
+
+.text-content {
+  color: var(--color-gray);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 32px;
+}
+
+.submit-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.input-email {
+  color: var(--color-gray);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  width: 291px;
+
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  background: #202024;
+}
+
+.button-content {
+  background: linear-gradient(90deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  padding: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.info-container {
+  display: flex;
+  gap: 40px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.span-info {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.text-info {
+  color: var(--color-gray);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
